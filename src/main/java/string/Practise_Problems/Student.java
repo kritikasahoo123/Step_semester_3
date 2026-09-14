@@ -17,7 +17,7 @@ class Student {
         System.out.println("Students created: " + studentCount);
     }
 
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Student s1 = new Student("Ravi", 85.0);
         Student s2 = new Student("Anitha", 90.0);
         Student.printCollegeInfo();
